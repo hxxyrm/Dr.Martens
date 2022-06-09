@@ -1,0 +1,346 @@
+.bg {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px auto;
+    position: relative;
+    opacity: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vip {
+    position: absolute;
+    width: 100%;
+    top: 380px;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    font-family: 'Butler';
+    font-size: 118px;
+}
+
+.vip p {
+    font-family: 'Butler';
+    font-weight: bold;
+}
+
+/* 헤더 메인 */
+
+#heritage1 {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: right;
+    position: absolute;
+    left: 1000px;
+}
+
+#heritage2 {
+    font-size: 17px;
+    text-align: right;
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    line-height: 25px;
+}
+
+#heritage3 {
+    font-weight: bold;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    top: 700px;
+    left: 350px;
+}
+
+#heritage4 {
+    font-weight: bold;
+    font-size: 110px;
+    float: center;
+    text-align: center;
+    position: absolute;
+    top: 900px;
+    left: 645px;
+    margin-bottom: 10px;
+}
+
+#heritage5 {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 1200px;
+    left: 600px;
+}
+
+#heritage6 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 1380px;
+    left: 600px;
+    line-height: 25px;
+}
+
+#heritage7 {
+    font-weight: bold;
+    font-size: 110px;
+    position: absolute;
+    top: 1500px;
+    left: 1100px;
+}
+
+#heritage8 {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 2000px;
+    left: 200px;
+}
+
+#heritage9 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 2200px;
+    left: 200px;
+    line-height: 25px;
+}
+
+#heritage10 {
+    font-weight: bold;
+    font-size: 110px;
+    position: absolute;
+    top: 2000px;
+    left: 1100px;
+}
+
+#heritage10 {
+    font-weight: bold;
+    font-size: 110px;
+    position: absolute;
+    top: 2390px;
+    left: 645px;
+}
+
+#heritage11 {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 3230px;
+    left: 280px;
+    text-align: center;
+}
+
+#heritage12 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 3350px;
+    left: 280px;
+    line-height: 25px;
+}
+
+#heritage13 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 3500px;
+    left: 280px;
+    line-height: 25px;
+}
+
+#heritage14 {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 3900px;
+    left: 280px;
+    text-align: center;
+}
+
+#heritage15 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 4020px;
+    left: 280px;
+    line-height: 25px;
+}
+
+#heritage16 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 4150px;
+    left: 280px;
+    line-height: 25px;
+}
+
+#heritage17 {
+    font-weight: bold;
+    font-size: 110px;
+    position: absolute;
+    top: 4250px;
+    left: 635px;
+}
+
+#heritage18 {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 4500px;
+    left: 700px;
+    text-align: left;
+}
+
+#heritage19 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 4680px;
+    left: 700px;
+    line-height: 25px;
+}
+
+#heritage20 {
+    font-weight: bold;
+    font-size: 110px;
+    position: absolute;
+    top: 5100px;
+    left: 635px;
+}
+
+#heritage21 {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 5900px;
+    left: 455px;
+    text-align: left;
+}
+
+#heritage22 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 6080px;
+    left: 455px;
+    line-height: 25px;
+}
+
+#heritage23 {
+    font-weight: bold;
+    font-size: 110px;
+    position: absolute;
+    top: 6200px;
+    left: 635px;
+}
+
+#heritage24 {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 6470px;
+    left: 700px;
+    text-align: left;
+}
+
+#heritage25 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 6660px;
+    left: 700px;
+    line-height: 25px;
+}
+
+#heritage26 {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 7700px;
+    left: 570px;
+    text-align: left;
+}
+
+#heritage27 {
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 7830px;
+    left: 480px;
+    line-height: 25px;
+}
+
+#heritage28 {
+    width: 100%;
+    height: 700px;
+    font-size: 70px;
+    position:absolute;
+    top: 8000px;
+    left: 10px;
+    font-family: 'Butler';
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+#heritage29 {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+/* Heritage 끝 */
+/* Belief 시작 */ 
+
+#be1 {
+    font-size: 150px;
+    top: 120px;
+    left: 115px;
+    position: absolute;
+    font-family: 'Butler';
+    font-weight: bold;
+}
+
+#be2 {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 1430px;
+    text-align: center;
+    left: 245px;
+}
+
+#be3 {
+    font-size: 17px;
+    top: 1560px;
+    left: 300px;
+    text-align: center;
+    position: absolute;
+}
+
+#be4 {
+    width: 100%;
+    height: 1900px;
+}
+
+/* col 시작 */
+
+#col1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#howto1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#howto2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}

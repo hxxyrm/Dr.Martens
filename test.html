@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6f7b4c89ba.js" crossorigin="anonymous"></script>
+    <script>
+        const bars = document.querySelector(".fas");
+        const minimenu = document.querySelector("#minimenu");
+
+        function onClick() {
+            minimenu.classList.toggle("hidden");
+        }
+
+        bars.addEventListener("click", onClick);
+    </script>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .hbody {
+            background-color: black;
+            width: 100%;
+            height: 100px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            color: white;
+        }
+
+        .title {
+            font-size: 2em;
+        }
+
+        .title>a {
+            color: white;
+        }
+
+        @media screen and (min-width: 625px) {
+
+            #menu {
+                display: flex;
+            }
+
+            #menu>li {
+                padding: 20px 30px;
+                font-size: 20px;
+            }
+
+            li>a {
+                color: white;
+            }
+
+            .fab {
+                font-size: 35px;
+                color: #1DA1F2;
+            }
+
+            .fas {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 625px) {
+
+            .nav {
+                padding: 30px 40px;
+            }
+
+            #menu {
+                display: none;
+            }
+
+            .fab {
+                display: none;
+            }
+
+            .fas {
+                font-size: 2em;
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* 가로 너비가 625px 이하일 때 미디어 쿼리 내용 */
+        @media screen and (max-width: 625px) {
+            .nav {
+                padding: 30px 40px;
+            }
+
+            #menu {
+                display: none;
+            }
+
+            .fab {
+                display: none;
+            }
+
+            .fas {
+                font-size: 2em;
+            }
+
+            #minimenu {
+                width: 100%;
+                height: 30vh;
+                background-color: black;
+            }
+
+            #minimenu>li {
+                font-size: 25px;
+                width: 100%;
+                height: 10vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #minimenu>li:hover {
+                background-color: orange;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="hbody">
+            <article class="nav">
+                <div class="title"><a href="./index.html">BRAND</a></div>
+                <ul id="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li>Notice</li>
+                    <li>Contact</li>
+                </ul>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fas fa-bars"></i>
+            </article>
+        </section>
+    </header>
+</body>
+
+</html>
